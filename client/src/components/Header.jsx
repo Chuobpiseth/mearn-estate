@@ -17,7 +17,7 @@ function Header() {
         <ul className='flex gap-4 text-white cursor-pointer text-lg'> 
             <Link to='/'><li className='hover:text-yellow-200 hover:drop-shadow-lg'>Home</li></Link>
             <Link to='/about'><li className='hover:text-yellow-200 hover:drop-shadow-lg'>About</li></Link>
-            <Link to='sign-in'><li className='hover:text-yellow-200 hover:drop-shadow-lg' >Sign In</li></Link>
+            <Link to='signin'><li className='hover:text-yellow-200 hover:drop-shadow-lg' >Sign In</li></Link>
         </ul>
         </div>
     </header>

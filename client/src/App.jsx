@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './pages/Home'
 import {BrowserRouter, Routes,Route} from 'react-router-dom'
-import SignIn from './pages/Signin'
+import SignIn from './pages/SignIn'
 import Profile from './pages/Profile'
 import Signup from './pages/SignUp'
 import About from './pages/About'
@@ -12,8 +12,8 @@ function App() {
     <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/sign-in" element={<SignIn/>}/>
-        <Route path="/sign-up" element={<Signup/>}/>
+        <Route path="/signin" element={<SignIn/>}/>
+        <Route path="/signup" element={<Signup/>}/>
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/about" element={<About/>}/>
       </Routes>

@@ -47,7 +47,7 @@ function Signup() {
       </form>
     <div className=" flex gap-2 mt-2">
       <p>Have an account?</p>
-      <Link to={"/sign-in"} className='text-blue-700 font-bold'>Sign In</Link>
+      <Link to={"/signin"} className='text-blue-700 font-bold'>Sign In</Link>
     </div>
     {error &&<p className='text-red-500 mt-5'>{error}</p>}
     </div>
